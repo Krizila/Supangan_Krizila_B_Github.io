@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest Game Application</title>
+</head>
+<body>
+     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Krizila</a>
+        <nav class="navbar">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#blogs" class="active">Blogs</a>
+             <a href="#comment">Post Comment!</a>
+        </nav>
+    </header>
+
+    <section class="blog-detail" style="padding-top: 10rem; min-height: 100vh; background: var(--second-bg-color);">
+        <div class="home-content" style="max-width: 800px; margin: auto;">
+            <h1>My <span>Blog</span></h1>
+            <div class="text-animate">
+                <h3>CodeQuest Application</h3>
+            </div>
+            <img src="image/CodeQuestPicture.jpg" alt="CodeQuest Application" style="width:100%;max-width:500px;border-radius:10px;margin:2rem 0;">
+            <p style="font-size:1.6rem; color: var(--text-color);">
+               CodeQuest is a fun and educational mobile game developed using Android Studio. It helps users learn and practice basic coding concepts through interactive challenges with Easy, Normal, and Hard levels. Perfect for beginners and coding enthusiasts!
+            </p>
+            <p style="font-size:1.6rem; color: var(--text-color);">
+              CodeQuest is an educational mobile game developed using Android Studio, designed to make learning programming fun and interactive. With a colorful interface and three levels of difficulty—Easy, Normal, and Hard—the app offers a gamified experience that tests and improves your logic and basic coding skills.
+
+                Perfect for beginners and coding enthusiasts, CodeQuest transforms learning into an exciting challenge. Whether you're solving puzzles or testing your knowledge, it’s a great way to practice programming concepts in a fun and engaging format.
+            </p>
+        
+           
+        </div>
+    </section>
+
+     <section class="comment" id="comment">
+        <h2 class="heading">Post <span>Commnet!</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="5f789bea-3c93-4068-9a75-b85b04dfd711">
+             <div style="background: var(--main-color); color: var(--text-color); border-radius: 8px; padding: 2rem; margin: 2rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                <h3 style="margin-bottom: 1rem;">Advice to Readers</h3>
+                <p style="font-size:1.6rem;">
+                    Embrace every learning opportunity during your OJT or internship. Don’t be afraid to ask questions, seek guidance, and step out of your comfort zone. The experiences and connections you make will help shape your future career and personal growth. Always give your best, stay curious, and enjoy the journey!
+                </p>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Comment" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Post Comment</button>
+            </div>
+        </form>
+         <a href="index.html#blogs" class="btn" style="margin-top:2rem;">&#8592; Back to Blogs</a>
+    </section>
+   
+    <script src="blogs.js"></script>
+</body>
+</html>
+</body>
+</html>
